@@ -1,6 +1,6 @@
 <?php
-// information de connection à la base de données 
 
+// information de connection à la base de données 
 $dbname= "mybase";
 $user = "Teddy";
 $mypassword = "MyPassword";

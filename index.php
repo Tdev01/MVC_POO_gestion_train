@@ -6,7 +6,6 @@ require('./Utils/init.php');
 require('./Utils/router.php');
 // var_dump($_GET);
 
-
 $lot1 = new Marchandise('bois','st', 5 );
 $lot2 = new Marchandise('acier','ptr', 4 );
 $lot3 = new Marchandise('verre','m3', 5 );
