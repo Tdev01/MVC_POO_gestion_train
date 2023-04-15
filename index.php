@@ -4,7 +4,8 @@ session_start() ;
 require('./Utils/autoload.php');
 require('./Utils/init.php');
 require('./Utils/router.php');
-var_dump($_GET);
+// var_dump($_GET);
+
 
 $lot1 = new Marchandise('bois','st', 5 );
 $lot2 = new Marchandise('acier','ptr', 4 );
