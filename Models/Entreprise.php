@@ -24,7 +24,6 @@ class Entreprise{
             echo "<br>";
             // echo $trajet->horDep;
             
-            
             // on compare les deux dates 
             
         }

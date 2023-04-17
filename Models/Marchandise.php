@@ -13,7 +13,6 @@ class Marchandise{
         $this->quantite = $quantite;
     }
 
-    
     public function __toString(){
         return $this->quantite . $this->unite . " de " . $this->nature ; 
     }
@@ -24,7 +23,7 @@ class Marchandise{
     }
 
     public function affiche(){
-
+        
     }
 
 

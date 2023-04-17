@@ -16,8 +16,8 @@ class Wagon{
         $this->position = $position;
     }
     
-    public function afficheChar(){
-            
+    public function afficheChar($commande){
+        var_dump($_SESSION['commande']);
     }
 
     public function affichePosition(){

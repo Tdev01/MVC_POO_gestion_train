@@ -21,6 +21,8 @@ class Trajet{
         $this->horArr = $horArr;
         $this->jours = $jours;
     }
+
+    
     
 
 

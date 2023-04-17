@@ -11,9 +11,6 @@ class Train{
         $this->listWagon = $listWagon;
 
     }
-
-    public function passerCommande(){
-        
-    }
+    
 
 }

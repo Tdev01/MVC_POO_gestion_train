@@ -23,9 +23,7 @@ class Client{
         // echo  $this->civilite . " " . $this->nom . " veut transporter " . $marchandise->getNature() . " de " . $gareDep . " a " . $gareArr ;
         
         $_SESSION['commande'] = ['client'=>$this, 'marchandise'=>$marchandise, 'dep'=>$gareDep, 'arr'=>$gareArr, 'dateClient'=>$dateClient];
-
-
-
+        
         }
 
 

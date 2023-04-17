@@ -14,6 +14,6 @@ class Gare{
     }
 
     public function afficheTrains(){
-
+        
     }
 }
