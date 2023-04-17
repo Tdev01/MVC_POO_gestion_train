@@ -1,7 +1,6 @@
 <?php
 
-class Gare{
-
+class Gare {
     public $nomVille;
     
     public function __construct($nomVille){
@@ -10,10 +9,14 @@ class Gare{
     }
     
     public function __toString(){
-        return $this->nomVille ; 
+        return "La ville est" .$this->nomVille ; 
     }
 
     public function afficheTrains(){
-        
+
+    }
+
+    public function getAttributes() {
+        var_dump(get_object_vars($this));
     }
 }

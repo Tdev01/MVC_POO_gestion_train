@@ -1,0 +1,11 @@
+<?php
+
+require_once('BDD.php');
+class CommandeDAO
+{
+
+    public function enregistrer($civilite,$nom, $email,$adresse,$marchandise, $quantite, $unite,$gareDep,$gareArr, $date_livraison)
+    {
+        $db_connect = connectToDB();
+    }
+}

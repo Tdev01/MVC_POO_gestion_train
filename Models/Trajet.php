@@ -11,7 +11,7 @@ class Trajet{
     public $horArr;
     public $jours=[];
 
-    public function __construct($ref, $train, $depart ,$arrivee, $gare ,$horDep, $horArr, $jours){
+    public function __construct($ref, Train $train, Gare $depart , Gare $arrivee, $gare ,$horDep, $horArr, $jours){
         $this->ref = $ref;
         $this->train = $train;
         $this->depart = $depart;
@@ -22,7 +22,9 @@ class Trajet{
         $this->jours = $jours;
     }
 
-    
+    public function getAttributes() {
+        var_dump(get_object_vars($this));
+    }
     
 
 

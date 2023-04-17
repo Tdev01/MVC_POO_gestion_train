@@ -1,7 +1,6 @@
 <?php
 
-class Marchandise{
-
+class Marchandise {
     private $nature;
     public $unite;
     public $quantite;
@@ -13,8 +12,13 @@ class Marchandise{
         $this->quantite = $quantite;
     }
 
+    
     public function __toString(){
         return $this->quantite . $this->unite . " de " . $this->nature ; 
+    }
+
+    public function getAttributes() {
+        return get_object_vars($this);
     }
 
     public function getNature(){
@@ -22,9 +26,6 @@ class Marchandise{
 
     }
 
-    public function affiche(){
-        
-    }
 
 
 }
